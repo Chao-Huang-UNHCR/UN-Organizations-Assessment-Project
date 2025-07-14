@@ -27,7 +27,7 @@ ggplot(df, aes(
     labels = c("China", "US")
   ) +
   labs(
-    title = "Govermental Contributions from US and China to UN Entities (in Percent) | 2023",
+    title = "Governmental Contributions from US and China to UN Entities (in Percent) | 2023",
     caption = "Source: UN Organizations Assessment Project"
   ) +
   theme_unhcr(grid = "X", axis = "y", axis_title = FALSE)
